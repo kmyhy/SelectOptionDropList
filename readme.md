@@ -18,7 +18,11 @@ SelectOptionDropList 使用 Masonry 来进行布局管理，因此请在 Podfile
 
 ### 使用 SelectOptionDropList
 
-在故事板中，拖一个 UIView 到 View Controller 中，设置 Class 为 SelectOptionDropList，并添加适当的约束。注意，height 约束是必须存在的，否则布局可能不正确。
+在故事板中，拖一个 UIView 到 View Controller 中，设置 Class 为 SelectOptionDropList，并添加适当的约束。
+
+<img src="2.png" width="200"/>
+
+注意，height 约束是必须存在的，否则布局可能不正确。
 
 用助手编辑器，将这个 SelectOptionDropList 连接到 IBOutlet，并进行适当命名，比如 selectList。
 
